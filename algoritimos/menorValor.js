@@ -1,5 +1,3 @@
-const livros = require('./listaLivros.js');
-
 function menorValor(arrProdutos, posiInicial) {
     let menorPreco = posiInicial;
 
@@ -13,8 +11,4 @@ function menorValor(arrProdutos, posiInicial) {
 }
 
 module.exports = menorValor;
-
-let barato = menorValor(livros, 1)
-
-console.log(`O livro mais barato é ${livros[barato].nome} custando ${livros[barato].preco}`)
 
