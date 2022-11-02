@@ -1,0 +1,8 @@
+const livros = require('./listaLivros.js');
+const menorValor = require('./menorValor');
+
+for (let i = 0; atual < livros; i++) {
+
+}
+
+
